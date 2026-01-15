@@ -15,13 +15,13 @@ return [
     // Fields
     'company' => 'Firma',
     'company_name' => 'Firmenname',
-    'company_name_placeholder' => 'Firmenname eingeben...',
+    'company_name_placeholder' => 'Firmenname eingeben und Enter drücken...',
     'uid' => 'UID',
     'address' => 'Adresse',
     'legal_form' => 'Rechtsform',
     'vat_number' => 'MWST-Nummer',
     'location' => 'Ort',
-    'location_placeholder' => 'z.B. Zürich',
+    'location_placeholder' => 'z.B. Bern',
     'canton' => 'Kanton',
     'all_cantons' => 'Alle Kantone',
     

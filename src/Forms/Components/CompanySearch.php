@@ -14,6 +14,8 @@ use Ecolabor\SwissUid\Facades\SwissUid;
 
 class CompanySearch extends TextInput
 {
+    protected string $view = 'filament-swiss-uid-search::forms.components.company-search';
+
     protected ?Closure $onCompanySelected = null;
 
     protected array $fieldMappings = [];
@@ -28,7 +30,7 @@ class CompanySearch extends TextInput
         
         $this->suffixAction(
             Action::make('searchCompany')
-                ->icon('heroicon-o-building-office')
+                ->icon('heroicon-o-magnifying-glass')
                 ->tooltip(__('filament-swiss-uid-search::messages.search_company'))
                 ->modalHeading(__('filament-swiss-uid-search::messages.search_results'))
                 ->modalWidth(Width::FourExtraLarge)
@@ -36,6 +38,16 @@ class CompanySearch extends TextInput
                 ->modalSubmitAction(false)
                 ->modalCancelActionLabel(__('filament-swiss-uid-search::messages.close'))
         );
+    }
+
+    public function getFieldMappings(): array
+    {
+        return $this->fieldMappings;
+    }
+
+    public function getSearchLimit(): int
+    {
+        return $this->searchLimit;
     }
 
     public function onCompanySelected(?Closure $callback): static
