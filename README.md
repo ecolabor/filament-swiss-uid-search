@@ -6,7 +6,7 @@
 [![PHP Version](https://img.shields.io/packagist/php-v/ecolabor/filament-swiss-uid-search.svg?style=flat-square)](https://packagist.org/packages/ecolabor/filament-swiss-uid-search)
 [![License](https://img.shields.io/packagist/l/ecolabor/filament-swiss-uid-search.svg?style=flat-square)](https://packagist.org/packages/ecolabor/filament-swiss-uid-search)
 
-Ein Filament v4 Plugin zur Suche nach Schweizer Unternehmen über den UID-Webservice (Unternehmens-Identifikationsnummer) des Bundesamts für Statistik.
+Ein Filament v5 Plugin zur Suche nach Schweizer Unternehmen über den UID-Webservice (Unternehmens-Identifikationsnummer) des Bundesamts für Statistik.
 
 ## Features
 
@@ -16,7 +16,7 @@ Ein Filament v4 Plugin zur Suche nach Schweizer Unternehmen über den UID-Webser
 - ✅ **Live-Validierung** der UID mit visuellem Feedback (✓/✗)
 - 🎴 **Company Card** Komponente für schöne Firmendarstellung
 - 🇨🇭 **Schweizer Lokalisierung** (de_CH, fr_CH, it_CH) + Fallbacks (de, fr, it, en)
-- 🎨 **Native Filament v4 Integration** - passt sich automatisch an dein Theme an
+- 🎨 **Native Filament v5 Integration** - passt sich automatisch an dein Theme an
 - 🌓 **Dark Mode** Support
 
 ## Installation
